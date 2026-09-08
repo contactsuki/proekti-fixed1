@@ -1,0 +1,28 @@
+.footer {
+  margin-top: 40px;
+}
+
+.footer__inner {
+  padding: 26px 40px 40px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.footer__brand {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--ink-dim);
+}
+
+.footer__note {
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+
+@media (max-width: 720px) {
+  .footer__inner {
+    padding: 22px 20px 32px;
+  }
+}
